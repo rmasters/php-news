@@ -2,4 +2,6 @@ This is a small script to read the PHP news file that comes with PHP.
 
 It links to referenced bugs and functions and presents it in a more accessible way.
 
+To use, edit the path to news.txt in index.php.
+
 Released under the GNU GPL 3.0.
