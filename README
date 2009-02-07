@@ -1,0 +1,5 @@
+This is a small script to read the PHP news file that comes with PHP. 
+
+It links to referenced bugs and functions and presents it in a more accessible way.
+
+Released under the GNU GPL 3.0.
