@@ -1,7 +1,13 @@
-This is a small script to read the PHP news file that comes with PHP. 
+**php-news** is a script to make reading the changes between PHP versions as
+documented in each release's [NEWS file][latest] easier.
 
-It links to referenced bugs and functions and presents it in a more accessible way.
+The output page features:
 
-To use, edit the path to news.txt in index.php.
+* Linking directly to bug reports
+* Linking to user profiles
+* Linking to function reference pages
+* Breaking down each update section into versions and making this accessible
 
 Released under the GNU GPL 3.0.
+
+[latest]: http://svn.php.net/viewvc/php/php-src/trunk/NEWS?view=co "The current revision of the NEWS file"
