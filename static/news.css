@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * php-news
+ */
+body {
+    font: 0.85em Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 1.00em 10.00em;
+}
+
+#page-header {
+    background: #99c;
+    border-bottom: 1px solid #000;
+    margin: -1.00em -10.00em 0;
+    padding: 1.00em;
+}
+
+#page-header #page-title {
+    background: url("php.png") no-repeat;
+    font-size: 1.50em;
+    min-height: 51px;
+    padding-top: 0.50em;
+    margin-bottom: -0.50em;
+    padding-left: 110px;
+}
+
+#version-toc {
+    background: #669;
+    margin: 0 -10.00em 1.00em;
+    padding: 0.50em;
+}
+
+#version-toc a {
+    color: #fff;
+    display: inline-block;
+    font-size: 0.90em;
+    padding: 0.25em;
+}
+
+#version-toc a:first-child {
+    font-weight: bold;
+}
+
+.release {
+    border-top: 3px solid #99c;
+    margin: 1.00em 0;
+}
+
+.release header h1 {
+    font-size: 1.50em;
+    padding: 0.50em 0;
+}
+
+.release .changes li {
+    border-top: 1px solid #eee;
+    padding: 0.25em 0;
+}
+
+.release .changes li:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.release .changes li:hover {
+    background: #eee;
+}
+
+.release .changes h2 {
+    font-size: 1.25em;
+    padding: 0.50em 0;
+}
+
+.release .changes ol {
+    margin: 0 1.50em;
+}
+
+#page-footer {
+    background: #669;
+    margin: 2.00em -10.00em -1.00em;
+    padding: 1.00em;
+    text-align: right;
+}
+
+#page-footer * {
+    color: #fff;
+    font-size: 0.90em;
+}
